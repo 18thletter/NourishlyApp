@@ -1,0 +1,3 @@
+rootProject.name = 'NourishlyApp'
+
+include ':app'
