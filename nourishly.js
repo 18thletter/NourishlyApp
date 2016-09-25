@@ -3,8 +3,8 @@ import {
   Container,
   Header,
   Title,
-  Content,
-  Text
+  Button,
+  Icon
 } from 'native-base';
 
 export default class NourishlyApp extends Component {
@@ -12,11 +12,17 @@ export default class NourishlyApp extends Component {
     return (
       <Container>
         <Header>
+          <Button transparent>
+            <Icon name='ios-arrow-back' />
+          </Button>
+
           <Title>Header</Title>
+
+          <Button transparent>
+            <Icon name='ios-menu' />
+          </Button>
         </Header>
-        <Content>
-          <Text>Some Content</Text>
-        </Content>
+
       </Container>
     );
   }
