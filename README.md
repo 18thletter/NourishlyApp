@@ -43,10 +43,15 @@ Also note, we are not affiliated with Tara Brach.
 ----------------------
 
 # The app
-This repo is an app written in React Native using the NativeBase framework.
+This repo is an app written in [React Native]
+(https://facebook.github.io/react-native/) using the [NativeBase]
+(http://nativebase.io/) framework.
 
 ## Installation
-Follow the React Native Getting Started installation guide.
+Follow the React Native [Getting Started]
+(https://facebook.github.io/react-native/docs/getting-started.html#content)
+installation guide.
+
 ```
 npm install
 rnpm link
