@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
-import { Examples } from '@shoutem/ui';
-
-export default class HelloWorld extends Component {
+import { Container, Header, Title, Content } from 'native-base';
+​
+export default class NourishlyApp extends Component {
   render() {
     return (
-      <Examples />
+      <Container>
+        <Header>
+          <Title>Header</Title>
+        </Header>
+
+        <Content>
+          This is content
+        </Content>
+      </Container>
     );
   }
 }
